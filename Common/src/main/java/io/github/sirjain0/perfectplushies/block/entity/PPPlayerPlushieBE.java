@@ -12,7 +12,7 @@ import software.bernie.geckolib.util.GeckoLibUtil;
 public class PPPlayerPlushieBE extends PlayerPlushieBlockEntity implements GeoBlockEntity {
 
     public PPPlayerPlushieBE(BlockPos pos, BlockState state) {
-        super(BlockInit.PLAYER_PLUSHIE_BLOCK_ENTITY.get(), pos, state);
+        super(pos, state);
     }
 
 }
