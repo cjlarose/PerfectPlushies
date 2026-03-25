@@ -34,3 +34,8 @@ pluginManagement {
 
 rootProject.name = "perfectplushies"
 include("Common", "Fabric", "Forge")
+
+def localSettings = file('local.settings.gradle')
+if (localSettings.exists()) {
+    apply from: localSettings
+}
